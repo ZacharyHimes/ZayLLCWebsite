@@ -2,7 +2,7 @@
 ============================================================================================ */
 .main_btn{
 	display: inline-block;
-	background: #ecae80;
+	background: $baseColor;
 	padding: 0px 51px;
 	color: #fff;
 	font-family: $rob;
@@ -13,7 +13,7 @@
 	outline: none !important;
 	box-shadow: none !important;
 	text-align: center;
-	border: 1px solid #ecae80;
+	border: 1px solid $baseColor;
 	cursor: pointer;
 	border-radius: 5px;
 	font-family: $rob;
@@ -21,15 +21,15 @@
 	@include transition;
 	&:hover{
 		background: #fff;
-		color: #ecae80;
+		color: $baseColor;
 		border: 1px solid #fff;
 	}
 }
 .banner_btn{
 	display: inline-block;
-	background: #ecae80;
+	background: $baseColor;
 	padding: 0 0 0 30px;
-	border: 1px solid #ecae80;
+	border: 1px solid $baseColor;
 	color: #fff;
 	font-family: $rob;
 	font-size: 13px;
@@ -66,7 +66,7 @@
 .submit_btn{
 	width: auto;
 	display: inline-block;
-	background: #ecae80;
+	background: $baseColor;
 	padding: 0px 50px;
 	color: #fff;
 	font-family: $rob;
@@ -77,12 +77,12 @@
 	outline: none !important;
 	box-shadow: none !important;
 	text-align: center;
-	border: 1px solid #ecae80;
+	border: 1px solid $baseColor;
 	cursor: pointer;
 	@include transition;
 	&:hover{
 		background: transparent;
-		color: #ecae80;
+		color: $baseColor;
 	}
 }
 
@@ -103,16 +103,16 @@
 	cursor: pointer;
 	@include transition;
 	&:hover{
-		background: #ecae80;
+		background: $baseColor;
 		color: #fff;
-		border-color: #ecae80;
+		border-color: $baseColor;
 	}
 }
 .black_btn{
 	padding: 0px 44px;
 	line-height: 50px;
 	background: $dip;
-	color: #ecae80;
+	color: $baseColor;
 	display: inline-block;
 	border-radius: 5px;
 	font-size: 13px;
@@ -120,7 +120,7 @@
 	font-weight: 500;
 	@include transition;
 	&:hover{
-		background: #ecae80;
+		background: $baseColor;
 		color: $dip;
 	}
 }
@@ -136,9 +136,9 @@
 	padding: 12px 54px;
 	border-radius: 4px;
 	color: $white;
-	border: 1px solid #ecae80;
+	border: 1px solid $baseColor;
 	text-transform: uppercase;
-	background: #ecae80;
+	background: $baseColor;
 	cursor: pointer;
 	@include transition;
 
@@ -148,7 +148,7 @@
 	}
 
 	&:hover{
-		background: #ecae80;
+		background: $baseColor;
 		color: $white;
 	}
 
@@ -166,9 +166,9 @@
 	}
 
 	&-header{
-		background: #ecae80;
+		background: $baseColor;
 		color: $white;
-		border-color: #ecae80;
+		border-color: $baseColor;
 
 		&:hover{
 			background: #b8024c;
@@ -178,9 +178,9 @@
 
 	&-contactForm{
 
-		background: #ecae80;
+		background: $baseColor;
 		color: $white;
-		border-color: #ecae80;
+		border-color: $baseColor;
 		padding: 12px 25px;
 
 		&:hover{
